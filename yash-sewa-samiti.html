@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>YASH SEWA SAMITI WEBSITE</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <style>
+
+  @import url('https://fonts.googleapis.com/css?family=Rubik&display=swap');
+
+    /* Remove the navbar's default margin-bottom and rounded borders */ 
+    .navbar {
+      margin-bottom: 0;
+      border-radius: 50;
+    }
+	
+   	.navbar-brand{
+    	margin-bottom: 0 !important;
+     	margin-top: 0 !important;
+   }
+   .navbar-nav{
+     text-color:white;
+   }
+
+body {
+    background: linear-gradient(0deg, #fff, 50%, #DEEEFE);
+    font-family: 'Rubik', sans-serif;
+    background: #ffffff;
+    height: 100 !important;
+  
+}
+
+.carousel-inner img {
+      width: 100%; /* Set width to 100% */
+      height: 50%;
+      margin: auto;
+      min-height:200px;
+  }
+
+
+
+footer{
+  color: rgb(161, 236, 91);
+}
+footer a{
+  color: #bfffff;
+}
+footer a:hover{
+  color: rgb(215, 240, 218);
+}
+
+.footer-bottom{
+  background: #181f2e;
+  padding: 1em;
+}
+.footer-top{
+  background: #10212b;  
+  padding:1px;
+}
+.footer-middle{
+   background: #3d6277;
+  padding-top: 2em;
+  color: white;
+}
+.align{
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+
+.icons {
+  margin-top: 25px;
+}
+
+.icons a {
+  display: inline-block;
+  width: 35px;
+  height: 35px;
+  cursor: pointer;
+  background-color: #5e6970;
+  border-radius: 2px;
+  font-size: 20px;
+  color: #ffffff;
+  text-align: center;
+  line-height: 35px;
+  margin-right: 3px;
+  margin-bottom: 5px;
+}
+
+
+
+  /* Hide the carousel text when the screen is less than 600 pixels wide */
+  @media (max-width: 600px) {
+    .carousel-caption {
+      display: none; 
+    }
+  }
+  </style>
+</head>
+<body>
+
+<!---Section 1 --->
+
+<nav class="navbar bg-info navbar-fixed-top">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand text-white" href="#"> <span classs="navbar-brand"><img src="img/yss.jpg"  alt="logo" style="width:30px;height: 30px;margin-right: 10px;"> YASH SEWA SMITI </span>
+      </a>
+    </div>
+    <div class="collapse navbar-collapse " id="myNavbar">
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#">about </a></li>
+        <li><a href="#">gallery</a></li>
+        <li><a href="#">contact</a></li>
+        <li class="dropdown">
+          <a class="dropdown-toggle" data-toggle="dropdown" href="#">initative
+            <span class="caret"></span>
+          </a>
+          <ul class="dropdown-menu">
+            <li><a href="#">food</a></li>
+            <li><a href="#">edu</a></li>
+            <li><a href="#">health</a></li>
+          </ul>
+        </li>
+        <li><a href="#"><span class="glyphicon glyphicon-user"></span> register</a></li>
+        <li><a href="https://pages.razorpay.com/pl_FRjbAMPVCZsNGd/view"><span class="glyphicon glyphicon-heart"></span> Make a donation </a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!---Section 2 --->
+<div id="myCarousel" class="carousel slide" data-ride="carousel">
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+      <li data-target="#myCarousel" data-slide-to="1"></li>
+    </ol>
+
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner" >
+      <div class="item active">
+        <img src="img/img1.jpg" alt="Image" style="width:100%;height: 750px">
+        <div class="carousel-caption "> 
+          <h3> Your little effort can make a big impact on someone's life. </h3>
+          <a href="https://docs.google.com/forms/d/e/1FAIpQLScpLr3ZtUsJBEgkG5k5MH98yP3WNmo2I1HBkwxRjMWhdHi1_g/viewform"> <button type="button" class="btn btn-success"> Join us ❤</button></a>
+          <p></p>
+          <span class="icons">
+            <a href="https://www.facebook.com/YashSewaSamiti"><i class="fa fa-facebook"></i></a>
+            <a href="https://twitter.com/YashSewaSamiti"><i class="fa fa-twitter"></i></a>
+            <a href="https://www.linkedin.com/company/yashsewasamiti/about/"><i class="fa fa-linkedin"></i></a>
+            <a href="https://www.instagram.com/yashsewasamiti/"><i class="fa fa-instagram"></i></a>
+          </span>
+        </div>      
+      </div>
+     <div class="item">
+        <img src="img/img0.jpg" alt="#" style="width:100%; height: 750px"> 
+        <div class="carousel-caption">
+          <h3> MAKE A DONATION TO TRANSFORM LIVES! </h3>
+          <a href="https://pages.razorpay.com/pl_FRjbAMPVCZsNGd/view"><button type="button" class="btn btn-success ">❤ Make a donation</button></a>
+        </div>      
+      </div>
+    </div>
+</div><br>
+
+<!---Section 3  -->    
+  <div class="container text-center"> 
+    <h3><strong class="white"> </strong></h3><br>   
+    <div class="row text-center ">
+      <div class="col-sm-6">
+        <div class="image">
+          <img src="img/img4.jpg" alt="about us" class="responsive" width="500" height="450">
+        </div>
+      </div>
+      <div class="col-sm-6">
+        <div class="thumbnail">
+          <h3 class="bg-success"><strong> About us </strong></h3>
+		  <div class="align">
+          <p>Yash Sewa Samiti was found with the motto to serve the needy based on the principles of Late Sh. 
+             Yash Pal Bhatia who being a teacher had touched many lives and spent his life serving the people.
+             He always believed that education is the key to change this society and the girl child has a vital role to play in it.
+             It focuses on the environmental & nature related aspects like Mission Green & Mission Clean to Save Earth.
+          <h3 class="bg-success"><strong> Vision </strong></h3>
+          <p>An empowered society where the elderly and children are taken care of and women are independent is our vision.</p>
+          <h3 class="bg-success"><strong> Mission </strong></h3>
+          <p>We strive to serve the economically and socially deprived by means of empowering them to become self-dependent with primary focus on children and women.
+             We believe if we are able to impart knowledge and skills in the young minds especially girls of this nation, 
+             we would not only help them grow but in turn would be creating a ripple effect which would spread its benefits all around.</p>
+        </div>
+      </div>
+    </div>
+    </div>
+  </div><br>
+
+  <div class="bg-primary">
+ <div class="container text-center">    
+  <h3><strong class="white"> Gallery </strong></h3><br>
+  <div class="row text-center ">
+    <div class="col-sm-3">
+      <div class="thumbnail">
+        <img src="img/img1.jpg" alt="blog" width="400" height="300">
+        <p><strong> </strong></p>
+        <button type="button" class="btn btn-primary"> Blog</button>
+      </div>
+    </div>
+    <div class="col-sm-3">
+      <div class="thumbnail">
+        <img src="img/img2.jpg" alt="gallery" width="400" height="300">
+        <p><strong>  </strong></p>
+        <button type="button" class="btn btn-primary">Gallery</button>
+      </div>
+    </div>
+    <div class="col-sm-3">
+      <div class="thumbnail">
+        <img src="img/img3.jpg" alt="Team" width="400" height="300">
+        <p><strong>  </strong> </strong></p>
+        <button type="button" class="btn btn-primary"> Team</button>
+      </div>
+    </div>
+    <div class="col-sm-3">
+      <div class="thumbnail">
+        <img src="img/img2.jpg" alt="event" width="400" height="300">
+        <p><strong>  </strong></p>
+        <button type="button" class="btn btn-primary">Events</button>
+      </div>
+    </div>
+  </div>
+</div>
+</div><br>
+<div class="bg-info">
+<div class="container text-center">    
+  <h3><strong class="white"> Our Empact </strong></h3><br>
+  <div class="row text-center ">
+    <div class="col-sm-3">
+      <div class="thumbnail">
+        <img src="img/img1.jpg" alt="edu" width="400" height="300">
+        <p> Educate a girl and she will change the world ...! </strong></p>
+        <button type="button" class="btn btn-info"> Education </button>
+      </div>
+    </div>
+    <div class="col-sm-3">
+      <div class="thumbnail">
+        <img src="img/img2.jpg" alt="food" width="400" height="300">
+        <p>THANKS for GIVING ....<br> food!</p>
+        <button type="button" class="btn btn-info">Food</button>
+      </div>
+    </div>
+    <div class="col-sm-3">
+      <div class="thumbnail">
+        <img src="img/img3.jpg" alt="health" width="400" height="300">
+        <p> Beautiful body. Beautiful <br>mind.</p>
+        <button type="button" class="btn btn-info"> Health</button>
+      </div>
+    </div>
+    <div class="col-sm-3">
+      <div class="thumbnail">
+        <img src="img/img2.jpg" alt="empowerment" width="400" height="300">
+        <p>The question isn’t who’s going to let me; it’s who is going to stop me.</p>
+        <button type="button" class="btn btn-info"> Empoerment</button>
+      </div>
+    </div>
+  </div>
+</div>
+</div><br>
+
+<!-- Footer --> 
+
+<footer class="mainfooter container-fluid" role="contentinfo">
+  <div class="footer-middle">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-3 col-sm-6">
+        <!--Column1-->
+        <div class="footer-pad">
+          <h4>Address</h4>
+          <address>
+								<ul class="list-unstyled">
+									<li>
+                    R-169, Vani Vihar,<br>
+                   New Uttam Nagar,<br>
+                   New Delhi-110059
+									</li>
+									<li>
+										Phone: 9810009863
+									</li>
+								</ul>
+							</address>
+        </div>
+      </div>
+      <div class="col-md-3 col-sm-6">
+        <!--Column2-->
+        <div class="footer-pad">
+          <h4> Inititative </h4>
+          <ul class="list-unstyled">
+            <li><a href="#"></a></li>
+            <li><a href="#">Education</a></li>
+            <li><a href="#">Aahar(Food)</a></li>
+            <li><a href="#">Health</a></li>
+            <li><a href="#">Enviroment</a></li>
+            <li><a href="#">Women Empowerment</a></li>
+        </ul>
+        </div>
+      </div>
+      <div class="col-md-3 col-sm-6">
+        <!--Column3-->
+        <div class="footer-pad">
+          <h4>Website Information</h4>
+          <ul class="list-unstyled">
+            <li><a href="#">Events</a></li>
+            <li><a href="#">Internship</a></li>
+            <li><a href="#">Volunteer</a></li>
+            <li><a href="#">Privacy Policy</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="col-md-3 col-sm-6">
+        <!--Column4-->
+        <div class="footer-pad center">
+          <h4> Give them a chance, <br>move them toward <br> success.</h4>
+          <button type="button" class="btn btn-success center"> <a href="https://pages.razorpay.com/pl_FRjbAMPVCZsNGd/view"><span class="glyphicon glyphicon-heart"></span> Make a donation </a> </button>
+        <br><p></p>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+  <div class="footer-bottom text-center">
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-12">
+          <!--Footer Bottom-->
+          <span class="icons">
+              <a href="https://www.facebook.com/YashSewaSamiti"><i class="fa fa-facebook"></i></a>
+              <a href="https://twitter.com/YashSewaSamiti"><i class="fa fa-twitter"></i></a>
+              <a href="https://www.linkedin.com/company/yashsewasamiti/about/"><i class="fa fa-linkedin"></i></a>
+              <a href="#"><i class="fa fa-google-plus"></i></a>
+              <a href="https://www.instagram.com/yashsewasamiti/"><i class="fa fa-instagram"></i></a>
+            </span>
+            <p>&copy; Copyright 2020-  Yss.  All rights reserved.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+</body>
+</html>
